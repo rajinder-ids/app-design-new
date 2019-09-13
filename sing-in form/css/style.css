@@ -1,0 +1,415 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html,
+head,
+body{
+	height: 100%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+.custom-container{
+	width: 100%;
+   /* height: 100%;*/
+    margin: 0 auto;
+    max-width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28), 0 1px 2px rgba(0, 0, 0, 0);
+}
+.section.topbar {
+    color: #fff;
+    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.topbar .row {
+    margin-bottom: 0px;
+}
+.no-padding{
+    padding:0px;
+}
+
+.section.app-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section.app-form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.height-100 {
+    height: 100%;
+    position: relative;
+}
+/**header battery icon css**/
+.icon-rotate-battery i{
+    transform: rotate(90deg);
+}
+/**header battery icon css end**/
+
+/**index.page css**/
+.wrappper,
+.bargainz-wrappper{
+    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+/**bargainz.page css**/
+.bargainz-wrappper{
+    height: 365px;
+    position: relative;
+    border-bottom-left-radius: 46%;
+    border-bottom-right-radius: 46%;
+}
+.social-icon {
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.social-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.social-icon .facebook{
+    background: linear-gradient(to right, rgb(66, 79, 183) 0%, rgb(77, 92, 177) 100%);
+}
+.social-icon .google{
+    background: linear-gradient(to right, rgb(242, 75, 56) 0%, #e85136 100%);
+}
+.social-icon button,
+button.sign-in-btn  {
+    width: 100%;
+    max-width: 80%;
+    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
+    font-size: 22px;
+    text-transform: initial;
+    margin-top: 30px;
+}
+button.sign-in-btn{
+    max-width: 95%
+}
+.topbar .col {
+    font-size: 28px;
+}
+.aap-footer-content {
+    float: left;
+    width: 100%;
+}
+p.card-alert,
+p.validation-error {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px;
+}
+p.validation-error{
+    background-color: #d4121a;
+}
+
+/**bargainz.page css end**/
+
+/**contact.page css**/
+.wrap-padding {
+    width: 100%;
+ /*   padding: 20px 40px;*/
+    float: left;
+    background-color: #f1f1f1;
+   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28), 0 1px 2px rgba(0, 0, 0, 0);*/
+    padding-bottom: 0px;
+}
+.feedback-box h3 {
+    margin: 0px;
+}
+.custom-container .input-field.col label {
+    color: #000;
+    padding-left: 0.75rem;
+    left: 0;
+}
+h5.text-or {
+    margin-top: 60px;
+}
+.errorTxt4 {
+    color: red;
+}
+.wrap-padding .social-icon button{
+    max-width: 100%;
+}
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: .2em;
+}
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+.feedback-box {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+/**contact.page css end**/
+
+/**home page css**/
+.product-categoery-icon i {
+    color: #ee2225;
+    font-size: 35px;
+}
+.product-categoery-icon {
+    background-color: #fff;
+}
+.product-categoery-icon .row{
+    margin-bottom: 0px;
+}
+.product-categoery-icon h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/**home page css end**/
+
+
+/**edit-profile page css**/
+.edit-profile-section .section.topbar {
+    height: 200px;
+}
+.upload-image {
+    margin-top: -58px;
+}
+.edit-profile-section .wrap-padding {
+    background: #ffff;
+    box-shadow: none;
+
+}
+.change-password-btn,
+.rateing-btn {
+    background-color: transparent;
+    color: #ed212a;
+    border: 1px solid #ed212a;
+    box-shadow: none;
+    width: 80%;
+    font-weight: bold;
+}
+.rateing-btn{
+    width: 100%;
+    max-width: 95%;
+}
+.rateing-btn:hover,
+.change-password-btn:hover{
+    background-color: transparent !important;
+}
+.change-password-btn:hover{
+     background-color: transparent;
+     box-shadow: none;
+}
+/**edit-profile page css end**/
+
+/**Products page css**/
+.search-container {
+    position: relative;
+}
+.search-container a {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.custom-container .row {
+    margin-bottom: 0px;
+
+}
+input#search-bar {
+    height: 45px;
+    font-size: 1rem;
+    line-height: 45px;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    background: #fff;
+    padding: 0px 45px;
+    width: calc(100% - 90px);
+    margin-bottom: 0px;
+}
+.search-icon {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+}
+.app-search-box i {
+    color: #ed212a;
+}
+.row.app-search-box {
+    margin-top: 36px;
+}
+.porducts-title h6,
+.shoping-list-title h6{
+    font-weight: 500;
+}
+.porducts-title a {
+    text-decoration: underline;
+    color: #ed212a;
+    cursor: pointer;
+}
+.porducts-grid {
+    background-color: #fff;
+    padding: 30px;
+    height: 257px;
+    overflow: hidden;
+    position: relative;
+}
+.porducts-grid img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+.col-3-grid .porducts-grid {
+    height: 160px;
+}
+.col-3-grid .porducts-grid img {
+    width: 90px;
+}
+.col-3-grid .porducts-title h6 {
+    font-weight: normal;
+}
+hr.app-hr {
+    overflow: hidden;
+    margin: 0px;
+    border: 1px solid #d9d9d9;
+}
+.col-3-grid .red-text {
+    margin-top: 10px;
+}
+.wrap-padding.porducts-list {
+    padding: 0px 0px;
+}
+.porducts-list .col {
+    margin-bottom: 12px;
+}
+.app-wishlist-icon,
+.star-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 14px;
+}
+.star-icon{
+    margin: 8px;
+    color: #f9d43d;
+}
+.porducts-grid a {
+    color: grey;
+}
+.wishlist-icon i {
+    margin: 14px;
+    color: grey;
+}
+/**Products page css**/
+
+/**shoping list page css**/
+
+.shoping-list {
+    background: #fff;
+    width: 100%;
+    float: left;
+    padding: 8px 0px;
+    margin-bottom: 16px;
+}
+.shoping-list img {
+    width: 100px;
+}
+.shoping-list-img{
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+}
+.shoping-list img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85px;
+}
+/**shoping list page css end**/
+
+/**shoping information page css**/
+.country-img{
+    border: 4px solid red;
+    border-radius: 50%;
+}
+.discount-price{
+    text-decoration: line-through;
+}
+.box-shadow-hide{
+    box-shadow:none;
+}
+.single-products-box {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding: 24px;
+    margin-bottom: 14px;
+}
+.single-products-box a{
+ text-decoration: underline;
+}
+/*.section.center.shop-info-country {
+    position: relative;
+    top: -10%;
+}*/
+/**shoping information page css end**/
+
+/* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill-opacity: 1;}
+        .jssorb052 .i.idn {opacity:.3;}
+
+        .jssora053 {display:block;position:absolute;cursor:pointer;}
+        .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+        .jssora053:hover {opacity:.8;}
+        .jssora053.jssora053dn {opacity:.5;}
+        .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
