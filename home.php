@@ -18,7 +18,9 @@
       <!--   Icon Section   -->
       <div class="row">
          <div class="col s4 m4 left-align">
-            <i class="material-icons dp48">dehaze</i>
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+              <i class="material-icons white-text">menu</i>
+            </a>
          </div>
          <div class="col s4 m4 center-align">
             HOME
@@ -28,6 +30,50 @@
          </div>
       </div>
    </div>
+   <!---------sidebar menu----------->
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view center">
+              <div class="background" style="background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);"> 
+              </div>
+              <div class="profile">
+                <img class="" src="images/profile.png">
+                <h5 class="white-text">Jassica Jones</h5>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="home.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+          </li>
+          <li>
+            <a href="edit-profile.php"><i class="fa fa-user-o" aria-hidden="true"></i>My profile</a>
+          </li>
+          <li>
+            <a href="send-code.php"><i class="fa fa-qrcode" aria-hidden="true"></i>Scan-code</a>
+          </li>
+          <li>
+            <a href="subscription.php"><i class="fa fa-server" aria-hidden="true"></i>Subscription</a>
+          </li>
+          <li>
+            <a href="home.php"><i class="material-icons dp48">home</i>Exclusive Items</a>
+          </li>
+          <li>
+            <a href="watch-list.php"><i class="fa fa-heart-o" aria-hidden="true"></i>Watch List</a>
+          </li>
+          <li>
+            <a href="shoping-list.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Shopping List</a>
+          </li>
+          <li>
+            <a href="contact.php"><i class="fa fa-star-o" aria-hidden="true"></i>Feedback/Contact</a>
+          </li>
+          <li>
+            <a href="faq.php"><i class="fa fa-wpforms" aria-hidden="true"></i>FAQ</a>
+          </li>
+          <li>
+            <a href="sign-up.php"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Logout</a>
+          </li>
+        </ul>
+  <!---------sidebar menu----------->
 
    <div class="section product-categoery-icon">
       <div class="row">

@@ -1,7 +1,3 @@
-<?php 
-  include_once('config.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,21 +13,19 @@
 </head>
 <body>
 <div class="container custom-container" style="background-color:#f8f9fb">
-  <div class="section topbar">
+  <div class="section single-products-topbar">
       <!--   Icon Section   -->
       <div class="row">
-         <div class="col s4 m4 left-align">
-            <i class="material-icons dp48">dehaze</i>
+         <div class="col s6 m6 left-align">
+            <i class="material-icons dp48 black-text" style="font-size:40px">chevron_left</i>
          </div>
-         <div class="col s4 m4 center-align">
-            Single Products
-         </div>
-         <div class="col s4 m4 right-align">
-           <i class="material-icons dp48">notifications_none</i>
+         
+         <div class="col s6 m6 right-align">
+           <i class="material-icons black-text dp48" style="font-size:40px">notifications_none</i>
          </div>
       </div>
   </div>
-  <div class="section">
+  <div class="section single-products-topbar">
     <div class="row">
       <div class="col s12 m12 l12">
         <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
@@ -58,8 +52,15 @@
     </div>
     
       </div>
-    </div>
   </div>
+  </div>
+  <div class="row right-align" style="margin-top: -30px;">
+    <div class="col s12">
+      <a class="btn-floating btn-large white">
+        <i class="material-icons dp48 red-text" style="font-size:40px">favorite</i>
+      </a>
+    </div>
+    </div>
   <div class="section">
     <div class="row">
       <div class="col s12 m12 l12">

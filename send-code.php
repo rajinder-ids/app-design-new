@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="container custom-container height-100" style="background-color:#f1f1f1">
+<div class="container custom-container scan-code-bg height-100">
   <div class="section topbar">
       <!--   Icon Section   -->
       <div class="row">
@@ -31,30 +31,36 @@
            <!--  <i class="material-icons dp48">notifications_none</i> -->
          </div>
       </div>
-      <div class="row center-align">
-        <div class="input-field col s12 push-m2 center-align">
-            <input id="icon_telephone" type="tel" class="validate">
-            <label for="icon_telephone" class="">Telephone</label>
+      <div class="row">
+        <div class="col s2">
+        </div>
+        <div class="col s8">
+          <h5>Mobile Phone</h5>
+          <div class="input-field">
+              <input id="icon_telephone" type="tel" class="validate white-text">
+              <label for="icon_telephone" class="white-text">Enter mobile number</label>
+          </div>
+          <h5>Or <small>Scan QR-code</small></h5>
+        </div>
+        <div class="col s2">
         </div>
       </div>
-
-      <div class="row">
-        <div class="col m12">
-        <!-- Modal Trigger -->
-  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+  </div>
+  <div class="section">
+    <div class="row ">
+      <div class="col s12 m12 l12" style="height: 600px;position:relative">
+        <div class="send-code">
+          <img src="images/send-code.png" class="responsive-img">
+        </div>
+      </div>
     </div>
   </div>
-        </div>
+  <div class="section scan-code-bg">
+    <div class="row center">
+      <div class="col s12 m12 l12">
+        <button class="btn waves-effect waves-light btn-large sign-in-btn white-text" name="action">Next</button>
       </div>
+    </div>
   </div>
 </div>
 

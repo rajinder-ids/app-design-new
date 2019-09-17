@@ -51,14 +51,14 @@
                   <img src="images/2.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />
@@ -76,14 +76,14 @@
                   <img src="images/rating.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text truncate">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />
@@ -101,14 +101,14 @@
                   <img src="images/2.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text truncate">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />
@@ -126,14 +126,14 @@
                   <img src="images/2.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text truncate">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />
@@ -151,14 +151,14 @@
                   <img src="images/rating.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text truncate">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />
@@ -176,14 +176,14 @@
                   <img src="images/2.png">
                 </div>
               </div>
-              <div class="col s7">
+              <div class="col s6">
                 <div class="shoping-list-title">
                   <h6 class="black-text truncate">Convallis Furniture</h6>
                   <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                   <h6 class="green-text">$14.67 <small class="grey-text discount-price">$16.71</small> <span class="black-text">(Save 10%) </span</h6>
                 </div>
               </div>
-              <div class="col s1">
+              <div class="col s2 left-align">
                 <h6>
                 <label>
                   <input type="checkbox" class="filled-in" />

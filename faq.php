@@ -14,6 +14,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -24,7 +25,9 @@
       <!--   Icon Section   -->
       <div class="row">
          <div class="col s4 m4 left-align">
-            <nav> nav </nav>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons white-text">menu</i>
+          </a>
             <!-- <i class="material-icons dp48" style="font-size:40px">chevron_left</i> -->
          </div>
          <div class="col s4 m4 center-align">
@@ -35,22 +38,51 @@
          </div>
       </div>
   </div>
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="images/office.jpg">
-      </div>
-      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#name"><span class="white-text name">John Doe</span></a>
-      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <!---------sidebar menu----------->
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view center">
+              <div class="background" style="background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);"> 
+              </div>
+              <div class="profile">
+                <img class="" src="images/profile.png">
+                <h5 class="white-text">Jassica Jones</h5>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="home.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+          </li>
+          <li>
+            <a href="edit-profile.php"><i class="fa fa-user-o" aria-hidden="true"></i>My profile</a>
+          </li>
+          <li>
+            <a href="send-code.php"><i class="fa fa-qrcode" aria-hidden="true"></i>Scan-code</a>
+          </li>
+          <li>
+            <a href="subscription.php"><i class="fa fa-server" aria-hidden="true"></i>Subscription</a>
+          </li>
+          <li>
+            <a href="home.php"><i class="material-icons dp48">home</i>Exclusive Items</a>
+          </li>
+          <li>
+            <a href="watch-list.php"><i class="fa fa-heart-o" aria-hidden="true"></i>Watch List</a>
+          </li>
+          <li>
+            <a href="shoping-list.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Shopping List</a>
+          </li>
+          <li>
+            <a href="contact.php"><i class="fa fa-star-o" aria-hidden="true"></i>Feedback/Contact</a>
+          </li>
+          <li>
+            <a href="faq.php"><i class="fa fa-wpforms" aria-hidden="true"></i>FAQ</a>
+          </li>
+          <li>
+            <a href="sign-up.php"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Logout</a>
+          </li>
+        </ul>
+  <!---------sidebar menu----------->
+  
   <div class="section center upload-image">
         <div class="row">
         <div class="upload-image">
@@ -58,7 +90,22 @@
         </div>
       </div>
   </div>
+
 </div>
+
+<!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal custom-modal">
+    <div class="modal-content center">
+      <i class="fa fa-exclamation-triangle" style="font-size: 60px;color:#ed212c;" aria-hidden="true"></i>
+      &nbsp;
+      <h4><strong>Get Subscription</strong></h4>
+      <p>You need to subscription our weekly plan<br> for checkout these offers.</p>
+      <button class="btn waves-effect waves-light btn-large Upgrade-Plan-btn white-text" name="action">Upgrade Plan</button>
+    </div>
+  </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
